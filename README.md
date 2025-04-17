@@ -60,9 +60,9 @@ cd task-management
 ### **3️⃣ Configure the Application**  
 Modify `application.properties`:  
 ```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/taskdb
-spring.datasource.username=admin
-spring.datasource.password=password
+spring.datasource.url=jdbc:postgresql://localhost:5433/taskdb
+spring.datasource.username=postgres
+spring.datasource.password=postgres
 spring.cache.type=redis
 jwt.secret=MySuperSecretKey
 ```
@@ -234,6 +234,5 @@ This project is **open-source** and available under the **MIT License**.
 
 ## 📞 **Contact & Support**
 For issues or questions, feel free to:  
-📧 **Email:** support@example.com  
-🐙 **GitHub Issues:** [Open an Issue](https://github.com/YOUR_GITHUB/task-management/issues)  
+📧 **Email:** mcrabeto@gmail.com  
 
